@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61305AF151FA94E000C33F9 /* backgroundohne.png in Resources */ = {isa = PBXBuildFile; fileRef = F61305AD151FA94E000C33F9 /* backgroundohne.png */; };
+		F61305B0151FA94E000C33F9 /* backgroundohne@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F61305AE151FA94E000C33F9 /* backgroundohne@2x.png */; };
+		F61305B3151FAA0B000C33F9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61305B2151FAA0B000C33F9 /* iAd.framework */; };
 		F66DCC8C151EFEDC0073D3D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66DCC8B151EFEDC0073D3D8 /* UIKit.framework */; };
 		F66DCC8E151EFEDC0073D3D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66DCC8D151EFEDC0073D3D8 /* Foundation.framework */; };
 		F66DCC90151EFEDC0073D3D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66DCC8F151EFEDC0073D3D8 /* CoreGraphics.framework */; };
@@ -15,22 +18,31 @@
 		F66DCC9C151EFEDC0073D3D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66DCC9B151EFEDC0073D3D8 /* AppDelegate.m */; };
 		F66DCC9F151EFEDC0073D3D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66DCC9E151EFEDC0073D3D8 /* ViewController.m */; };
 		F66DCCA2151EFEDC0073D3D8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66DCCA0151EFEDC0073D3D8 /* ViewController.xib */; };
+		F66DCCAB151EFEF70073D3D8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F66DCCAA151EFEF70073D3D8 /* icon@2x.png */; };
+		F66DCCAD151EFF060073D3D8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F66DCCAC151EFF060073D3D8 /* icon.png */; };
+		F66DCCB4151F01390073D3D8 /* wordlist.csv in Resources */ = {isa = PBXBuildFile; fileRef = F66DCCB3151F01390073D3D8 /* wordlist.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F61305AD151FA94E000C33F9 /* backgroundohne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundohne.png; sourceTree = "<group>"; };
+		F61305AE151FA94E000C33F9 /* backgroundohne@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundohne@2x.png"; sourceTree = "<group>"; };
+		F61305B2151FAA0B000C33F9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		F66DCC87151EFEDC0073D3D8 /* CheatSomething.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheatSomething.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66DCC8B151EFEDC0073D3D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F66DCC8D151EFEDC0073D3D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F66DCC8F151EFEDC0073D3D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F66DCC93151EFEDC0073D3D8 /* CheatSomething-Info.plist */ = {isa = PBXFileReference; path = "CheatSomething-Info.plist"; sourceTree = "<group>"; };
+		F66DCC93151EFEDC0073D3D8 /* CheatSomething-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheatSomething-Info.plist"; sourceTree = "<group>"; };
 		F66DCC95151EFEDC0073D3D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F66DCC97151EFEDC0073D3D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F66DCC99151EFEDC0073D3D8 /* CheatSomething-Prefix.pch */ = {isa = PBXFileReference; path = "CheatSomething-Prefix.pch"; sourceTree = "<group>"; };
-		F66DCC9A151EFEDC0073D3D8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F66DCC99151EFEDC0073D3D8 /* CheatSomething-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheatSomething-Prefix.pch"; sourceTree = "<group>"; };
+		F66DCC9A151EFEDC0073D3D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F66DCC9B151EFEDC0073D3D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F66DCC9D151EFEDC0073D3D8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F66DCC9D151EFEDC0073D3D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F66DCC9E151EFEDC0073D3D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F66DCCA1151EFEDC0073D3D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F66DCCAA151EFEF70073D3D8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F66DCCAC151EFF060073D3D8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F66DCCB3151F01390073D3D8 /* wordlist.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61305B3151FAA0B000C33F9 /* iAd.framework in Frameworks */,
 				F66DCC8C151EFEDC0073D3D8 /* UIKit.framework in Frameworks */,
 				F66DCC8E151EFEDC0073D3D8 /* Foundation.framework in Frameworks */,
 				F66DCC90151EFEDC0073D3D8 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +63,9 @@
 		F66DCC7C151EFEDC0073D3D8 = {
 			isa = PBXGroup;
 			children = (
+				F61305B2151FAA0B000C33F9 /* iAd.framework */,
+				F66DCCB3151F01390073D3D8 /* wordlist.csv */,
+				F66DCCAE151EFF1A0073D3D8 /* Images */,
 				F66DCC91151EFEDC0073D3D8 /* CheatSomething */,
 				F66DCC8A151EFEDC0073D3D8 /* Frameworks */,
 				F66DCC88151EFEDC0073D3D8 /* Products */,
@@ -96,6 +112,17 @@
 				F66DCC99151EFEDC0073D3D8 /* CheatSomething-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66DCCAE151EFF1A0073D3D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F61305AD151FA94E000C33F9 /* backgroundohne.png */,
+				F61305AE151FA94E000C33F9 /* backgroundohne@2x.png */,
+				F66DCCAC151EFF060073D3D8 /* icon.png */,
+				F66DCCAA151EFEF70073D3D8 /* icon@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +178,11 @@
 			files = (
 				F66DCC96151EFEDC0073D3D8 /* InfoPlist.strings in Resources */,
 				F66DCCA2151EFEDC0073D3D8 /* ViewController.xib in Resources */,
+				F66DCCAB151EFEF70073D3D8 /* icon@2x.png in Resources */,
+				F66DCCAD151EFF060073D3D8 /* icon.png in Resources */,
+				F66DCCB4151F01390073D3D8 /* wordlist.csv in Resources */,
+				F61305AF151FA94E000C33F9 /* backgroundohne.png in Resources */,
+				F61305B0151FA94E000C33F9 /* backgroundohne@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +307,7 @@
 				F66DCCA7151EFEDC0073D3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
