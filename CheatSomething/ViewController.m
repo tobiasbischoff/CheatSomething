@@ -40,7 +40,7 @@
                                                                                                     pathForResource:title ofType:type] 
                                                                                           encoding:NSMacOSRomanStringEncoding error:NULL] componentsSeparatedByString:seperation]];
     //log one item to see if seperation is made correct
-    NSLog(@"array inhalt: %@ ", [wordlist objectAtIndex:0] );
+    //NSLog(@"array inhalt: %@ ", [wordlist objectAtIndex:0] );
 }
 
 - (void)viewDidUnload
@@ -56,7 +56,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 - (void)bruteforce
@@ -80,7 +80,7 @@
         NSRange range = {0, [currentWord length]-5};
         //make a working copy without the garbage at the end..
         NSString * working = [currentWord substringWithRange:range];
-        NSLog(@"working %@", working);
+        //NSLog(@"working %@", working);
         
         //go thru the word by char
         for(int i = 0; i < [working length]; ++i) {
